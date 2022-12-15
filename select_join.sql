@@ -38,7 +38,7 @@ FROM
 SELECT
 	*
 FROM
-	user_mst AS um;
+	user_mst AS um
 	LEFT OUTER JOIN user_dtl AS ud ON (ud.id = um.id);
 	/*AS um = um이라는 별명을 만들어줌
 	앞에 AS(알리아스)를 생략해도 별명을 만든다고 인식을 함*/
