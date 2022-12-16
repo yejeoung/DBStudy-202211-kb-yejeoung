@@ -20,7 +20,7 @@ from
     left outer join student_mst stm on(stm.id = cm.student_id);
     
 select
-	*board_mst
+	*
 from
 	course_view
 where
